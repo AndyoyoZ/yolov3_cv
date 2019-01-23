@@ -16,7 +16,10 @@ make -j8
 运行：
 
 ./yolo_opencv -source=../data/person.jpg   %图像
+
 ./yolo_opencv -source=../data/test.avi     %视频
+
 ./yolo_opencv -device=0                    %摄像头
+
 
 

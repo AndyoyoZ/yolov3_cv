@@ -5,11 +5,18 @@ yolov3 on opencv 3.4.x
 
 下载地址：https://pjreddie.com/media/files/yolov3.weights
 
+编译：
+
 mkdir build && cd build
 
 cmake ..
 
 make -j8
 
-./yolo_opencv -source=../data/person.jpg 
+运行：
+
+./yolo_opencv -source=../data/person.jpg   %图像
+./yolo_opencv -source=../data/test.avi     %视频
+./yolo_opencv -device=0                    %摄像头
+
 
